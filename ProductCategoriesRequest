@@ -1,0 +1,3 @@
+select p.[name] as prooduct_name, c.[name] as category_name
+FROM products p
+LEFT JOIN categories c ON c.product_id = p.product_id
